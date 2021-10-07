@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
+    <title>Login or SignUp</title>
+</head>
+<body>
+    <img src="images/logo.png" alt="" class="loglog" width="100px" height="100px">
+    <div class="container">
+        <h1 class="label">Login page</h1>
+        <form class="login_form" action="QOTFH.html " method="post" name="form" onsubmit="return validated()">
+            <div class="font">Email or Phone</div>
+            <input type="text" name="email">
+            <div id="email_error">Please fill in your Email or Phone</div>
+            <div class="font font 2">Password </div>
+            <input type="password" name="password">
+            <div id="pass_error">Please fill in your Password</div>
+            <button type="submit">LogIn</button>
+            <a class="register" href="register.php" ><h5 class="regh">Don't have an account yet?register</h5></a>
+        </form>
+    </div>
+</body>
+</html>

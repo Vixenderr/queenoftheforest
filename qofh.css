@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Stick No Bills', sans-serif;
+    background-image: url('images/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+    position: relative;
+}
+
+.body {
+    background: #000;
+    opacity: 0.7;
+    width: 100%;
+    height: 740px;
+}
+
+.body .brand{
+    color: tomato;
+    text-align: center;
+    position: absolute;
+    right: 10rem;
+    bottom: 20rem;
+    font-size: 4rem;
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+    padding: 20px;
+}
+.logo { 
+    border-style: none; 
+    position: fixed;
+    top: 0.5rem;
+    right:77rem;
+
+
+}
+.health{
+    color:lightyellow;
+    margin-top: 21rem;
+}
+
+nav{
+    text-align:center;
+    color: #00FF00;
+    margin-top: -27rem;
+    opacity: 1;
+    width: 100%;
+    position: fixed;
+    right: 12rem;
+}
+
+nav ul li a:hover {
+    color: rgb(230, 223, 223);
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    text-align: right ;
+    font-weight:bolder;
+    font-size: 22px;
+    width:120px;
+    height: 0px;
+}
+
+
+#copyright{
+    position: fixed;     
+    text-align: center;    
+    bottom: 0px; 
+    width: 100%;
+    font-weight: bolder;
+    color:#FFFFFF;
+}
+
+#copyright i {
+    font-size: 25px;
+    width: 70px;
+}
+
+a{
+    text-decoration: none;
+    color: yellowgreen;
+}
+p{
+    color: #CD3400;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 200%;
+    padding: 50px 0;
+}
+.btn{
+    display: inline-block;
+    background: #00FF00;
+    color: #fff;
+    font-weight: bolder;
+    padding: 12px 30px;
+    margin: 30px 0;
+    border-radius: 10px;  
+    transition: all 1.7s ease-out;
+}
+.btn:hover{
+    background:turquoise;
+    transform: rotate(20deg);
+}
+.name{
+    color:YELLOW;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 25px;
+    text-shadow: 3px 3px black;
+    opacity:0.7;
+}
